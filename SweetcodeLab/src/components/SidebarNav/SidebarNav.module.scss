@@ -1,0 +1,35 @@
+.sidebarNav {
+  width: 288px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.item {
+  display: block;
+  color: #FFFFFF;
+}
+
+.link {
+  text-decoration: none;
+
+  font-family: 'Archivo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+
+  padding: 20px 40px;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.item_active,
+.item:hover {
+ color: #0965F1;
+}

@@ -1,0 +1,20 @@
+.page {
+  margin-top: 44px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Archivo', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #FFFFFF;
+  margin-right: 16px;
+}
